@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100vw;
+    scroll-behavior: smooth;
+    font-family: "Manrope", sans-serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1680px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.header {
+    max-width: 1688px;
+    height: 106px;
+    margin: 0 auto;
+}
+
+.bg-image {
+    width: 100%;
+    z-index: -10;
+    top: 0;
+    position: absolute;
+    background-image: linear-gradient(110deg, #f38172 5%, #d1668d 15%, #a942a2 30%, #8b2ebd 45%, #6f2bd4 65%, #5a3cc8 73%, #473cc3 81%, #3040e8);
+}
+
